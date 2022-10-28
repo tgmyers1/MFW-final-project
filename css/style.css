@@ -1,3 +1,7 @@
 .navbar {
     background-color: #01143F !important;
 }
+
+.carousel-screenshot {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
