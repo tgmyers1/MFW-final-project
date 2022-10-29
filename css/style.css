@@ -39,9 +39,3 @@ body {
     color: #01143F;
     border-radius: 50%;
 }
-
-@include media-breakpoint-down(md) {
-    .carousel-item {
-        height: 50vh;
-    }
-}
