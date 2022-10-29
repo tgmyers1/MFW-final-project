@@ -1,16 +1,18 @@
 .navbar {
     background-color: #01143F !important;
+    font-family: Inter;
 }
 
 body {
     background-color: #01143F;
+    font-family: Roboto Slab;
 }
 
 #carouselHero .carousel-item img {  
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-    height:100vh;
+    height: 100vh;
 }
   
 #carouselHero .carousel-item:before {
@@ -25,4 +27,21 @@ body {
     top: 0;
     width: 100vw;
     height: 100vh;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: #01143F;
+    border-radius: 50%;
+}
+
+@include media-breakpoint-down(md) {
+    .carousel-item {
+        height: 50vh;
+    }
 }
